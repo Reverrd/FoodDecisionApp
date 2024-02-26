@@ -3,6 +3,13 @@ import { useState, useCallback, useEffect } from "react"
 
 export default function FoodPositive() {
     const [date, setDate] = useState('')
+    useEffect(()=>{
+        //this is to show you the name of the day rather than the date number figures itself
+        const options = {weekday:'long'};
+        const currentDate = new Date().toLocaleDateString('en-Uk', options)
+        setDate(currentDate)
+    },[])
+    
     const [foodList, setFoodList] = useState([])
     const fetchData = useCallback(()=>{
         fetch('./db.json')
@@ -11,12 +18,7 @@ export default function FoodPositive() {
             setFoodList(data)
         })
     },[])
-    useEffect(()=>{
-        
-        const options = {weekday:'long'};
-        const currentDate = new Date().toLocaleDateString('en-Uk', options)
-        setDate(currentDate)
-    },[])
+    
     useEffect(()=>{
         fetchData()
     },[fetchData])
