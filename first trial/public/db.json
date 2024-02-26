@@ -1,0 +1,55 @@
+{
+    "Food":
+    [
+        {
+            "id": 1,
+            "Morning": "Bread and Butter",
+            "Afternoon": "Jollof Rice with Goat Meat",
+            "Evening": "Indomie and egg"
+        },
+        {
+            "id": 2,
+            "Morning": "Snacks",
+            "Afternoon": "Swallow",
+            "Evening": "Bread and egg"
+        },
+        {
+            "id": 3,
+            "Morning": "Bread and egg",
+            "Afternoon": "Jollof Rice with Goat Meat",
+            "Evening": "Indomie and egg"
+        },
+        {
+            "id": 4,
+            "Morning": "Bread and Butter",
+            "Afternoon": "Spaghetti",
+            "Evening": "Bread and egg"
+        },
+        {
+            "id": 5,
+            "Morning": "Indomie and egg",
+            "Afternoon": "Jollof Rice with Goat Meat",
+            "Evening": "Snacks"
+        },
+        {
+            "id": 6,
+            "Morning": "Bread and Plantain",
+            "Afternoon": "Snacks",
+            "Evening": "Indomie and fish"
+        },
+        {
+            "id": 7,
+            "Morning": "Bread and Butter",
+            "Afternoon": "Jollof Rice with Goat Meat",
+            "Evening": "Snacks"
+        },
+        {
+            "id": 8,
+            "Morning": "Fast",
+            "Afternoon": "Jollof Rice with Goat Meat",
+            "Evening": "Indomie and egg"
+        }
+       
+       
+    ]
+}
